@@ -1,7 +1,7 @@
 <template>
     <div>
       <h2>Get all Perfumes</h2>
-      <h4>จํานวนอาหารสัตว์ {{ perfumes.length }}</h4>
+      <h4>จํานวนน้ำหอม {{ perfumes.length }}</h4>
       <p>
         <button v-on:click="navigateTo('/perfume/create')">
           สร้างข้อมูลน้ำหอม
